@@ -83,6 +83,11 @@ export const TRACKS: Track[] = [
   { id: "in-between", title: "In Between", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/78/d2/b278d2a5-ca4d-297e-8947-6f0568b1e58d/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "the-mountain", title: "The Mountain", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/07/3b/96073b55-8e58-ef6e-6e81-2d751ac83ed8/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "home", title: "HOME (with Eddie Benjamin)", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/9a/62/049a6204-9cc9-1a34-79dc-3e55016d4686/196872973822.jpg/300x300bb.jpg" },
+  { id: "memories", title: "Memories", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
+  { id: "under-pressure", title: "Under Pressure (with teddy<3)", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/07/26/020726f9-b1e0-4bc9-1d72-0841663abe21/00602577208041.rgb.jpg/300x300bb.jpg" },
+  { id: "lover-remix", title: "Lover (Remix) [with Taylor Swift]", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/80/16/6680164a-5dd7-1da5-d1d0-63763fb2e4b2/19UM1IM02940.rgb.jpg/300x300bb.jpg" },
+  { id: "in-my-blood-portuguese", title: "In My Blood (Portuguese Version)", album: "Shawn Mendes" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/ec/82/f5ec8243-b243-697e-af65-29e4370afeb1/00602567736905.rgb.jpg/300x300bb.jpg" },
+  { id: "cant-take-my-eyes-off-you-bbc", title: "Can't Take My Eyes Off You (BBC Live Version)", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/d0/19/bcd019d3-a4a5-f84d-f4b5-910cc1c0faa1/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
 ];
 
 // Fill these in with hosted, licensed snippet URLs. Empty = placeholder tone.
@@ -168,6 +173,11 @@ export const TRACK_AUDIO: Record<string, string> = {
   "who-i-am": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/74/ba/7074ba09-2fca-5bc8-31c7-832a26d98c42/mzaf_4525589902418503926.plus.aac.p.m4a",
   "why-why-why": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/13/98/e6139851-3b5c-0932-c54d-c847ed68a1cd/mzaf_14792098205339623158.plus.aac.p.m4a",
   "wonder": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/1e/b7/2b1eb7bf-099b-526a-b56c-efdf19d6993a/mzaf_16022885272087270619.plus.aac.p.m4a",
+  "memories": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/ad/6f/44ad6fd0-11fd-f882-f633-307f6577e471/mzaf_1839090292761617407.plus.aac.p.m4a",
+  "under-pressure": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/f2/1c/a2f21c4c-f7fc-03a3-88a4-f5fbbe162c85/mzaf_12009231373652507041.plus.aac.p.m4a",
+  "lover-remix": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/80/b6/2a80b62a-7709-0c7b-93b0-4f9331828e75/mzaf_4841943136078964055.plus.aac.p.m4a",
+  "in-my-blood-portuguese": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/2f/5f/482f5f82-fab3-8c11-8d27-3cf7c30e1667/mzaf_7510956109261702452.plus.aac.p.m4a",
+  "cant-take-my-eyes-off-you-bbc": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/85/98/68859838-93b7-cfc9-0344-68ddc05f67bc/mzaf_5996876372220127690.plus.aac.p.m4a",
 };
 
 export type Difficulty = "Easy" | "Medium" | "Hard" | "Expert" | "Impossible";
