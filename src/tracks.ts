@@ -85,7 +85,7 @@ export const TRACKS: Track[] = [
   { id: "home", title: "HOME (with Eddie Benjamin)", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/9a/62/049a6204-9cc9-1a34-79dc-3e55016d4686/196872973822.jpg/300x300bb.jpg" },
   { id: "memories", title: "Memories", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
   { id: "under-pressure", title: "Under Pressure (with teddy<3)", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/07/26/020726f9-b1e0-4bc9-1d72-0841663abe21/00602577208041.rgb.jpg/300x300bb.jpg" },
-  { id: "lover-remix", title: "Lover (Remix) [with Taylor Swift]", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/80/16/6680164a-5dd7-1da5-d1d0-63763fb2e4b2/19UM1IM02940.rgb.jpg/300x300bb.jpg" },
+  { id: "lover-remix", title: "Lover (Remix) [feat. Shawn Mendes]", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/80/16/6680164a-5dd7-1da5-d1d0-63763fb2e4b2/19UM1IM02940.rgb.jpg/300x300bb.jpg" },
   { id: "in-my-blood-portuguese", title: "In My Blood (Portuguese Version)", album: "Shawn Mendes" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/ec/82/f5ec8243-b243-697e-af65-29e4370afeb1/00602567736905.rgb.jpg/300x300bb.jpg" },
   { id: "cant-take-my-eyes-off-you-bbc", title: "Can't Take My Eyes Off You", album: "Wonder" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/d0/19/bcd019d3-a4a5-f84d-f4b5-910cc1c0faa1/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
 ];
