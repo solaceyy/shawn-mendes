@@ -2,11 +2,11 @@
 export type Track = { id: string; title: string; album: string; cover: string };
 
 export const TRACKS: Track[] = [
-  { id: "life-of-the-party", title: "Life of the Party", album: "Early Singles" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
-  { id: "show-you", title: "Show You", album: "Early Singles" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/82/89/6f/82896f8e-a953-1332-10cb-6d91ea91556d/00602547228222.rgb.jpg/300x300bb.jpg" },
-  { id: "one-of-those-nights", title: "One of Those Nights", album: "Early Singles" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/56/3b/d9563be3-cba2-7803-bc4f-f3119647389e/00602547228239.rgb.jpg/300x300bb.jpg" },
-  { id: "the-weight", title: "The Weight", album: "Early Singles" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
-  { id: "bring-it-back", title: "Bring It Back", album: "Early Singles" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
+  { id: "life-of-the-party", title: "Life of the Party", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
+  { id: "show-you", title: "Show You", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/82/89/6f/82896f8e-a953-1332-10cb-6d91ea91556d/00602547228222.rgb.jpg/300x300bb.jpg" },
+  { id: "one-of-those-nights", title: "One of Those Nights", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/56/3b/d9563be3-cba2-7803-bc4f-f3119647389e/00602547228239.rgb.jpg/300x300bb.jpg" },
+  { id: "the-weight", title: "The Weight", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
+  { id: "bring-it-back", title: "Bring It Back", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
   { id: "stitches", title: "Stitches", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
   { id: "never-be-alone", title: "Never Be Alone", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
   { id: "kid-in-love", title: "Kid in Love", album: "Handwritten" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/300x300bb.jpg" },
@@ -67,11 +67,11 @@ export const TRACKS: Track[] = [
   { id: "look-up-at-the-stars", title: "Look Up at the Stars", album: "Wonder" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d5/f0/d2/d5f0d270-fc16-5691-d83e-917c067a6561/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
   { id: "cant-imagine", title: "Can't Imagine", album: "Wonder" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d5/f0/d2/d5f0d270-fc16-5691-d83e-917c067a6561/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
   { id: "the-christmas-song", title: "The Christmas Song", album: "Wonder" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/3e/21/013e21f6-6ee8-f111-7a9b-a5d0cdecf182/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
-  { id: "oh-cecilia", title: "Oh Cecilia (Breaking My Heart)", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e0/2a/99/e02a99f7-f5ca-a765-6174-c11f7ad424a0/14UMGIM44959.rgb.jpg/300x300bb.jpg" },
-  { id: "summer-of-love", title: "Summer of Love", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/98/fe/63/98fe6369-619e-66e3-2aea-8f9346cb9fa8/21UMGIM80594.rgb.jpg/300x300bb.jpg" },
-  { id: "itll-be-okay", title: "It'll Be Okay", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b7/7a/e6/b77ae6d0-9ae7-c665-b9a2-2149c6d85ff4/21UM1IM47906.rgb.jpg/300x300bb.jpg" },
-  { id: "when-youre-gone", title: "When You're Gone", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/e2/c7/00e2c71b-3b7c-d9b6-7ee5-50dc7412af42/22UMGIM29279.rgb.jpg/300x300bb.jpg" },
-  { id: "what-the-hell-are-we-dying-for", title: "WHAT THE HELL ARE WE DYING FOR?", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ba/f3/6d/baf36dea-7fce-3c5a-56ad-3bdb905061bf/23UMGIM66822.rgb.jpg/300x300bb.jpg" },
+  { id: "oh-cecilia", title: "Oh Cecilia (Breaking My Heart)", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e0/2a/99/e02a99f7-f5ca-a765-6174-c11f7ad424a0/14UMGIM44959.rgb.jpg/300x300bb.jpg" },
+  { id: "summer-of-love", title: "Summer of Love", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/98/fe/63/98fe6369-619e-66e3-2aea-8f9346cb9fa8/21UMGIM80594.rgb.jpg/300x300bb.jpg" },
+  { id: "itll-be-okay", title: "It'll Be Okay", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b7/7a/e6/b77ae6d0-9ae7-c665-b9a2-2149c6d85ff4/21UM1IM47906.rgb.jpg/300x300bb.jpg" },
+  { id: "when-youre-gone", title: "When You're Gone", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/e2/c7/00e2c71b-3b7c-d9b6-7ee5-50dc7412af42/22UMGIM29279.rgb.jpg/300x300bb.jpg" },
+  { id: "what-the-hell-are-we-dying-for", title: "WHAT THE HELL ARE WE DYING FOR?", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ba/f3/6d/baf36dea-7fce-3c5a-56ad-3bdb905061bf/23UMGIM66822.rgb.jpg/300x300bb.jpg" },
   { id: "who-i-am", title: "Who I Am", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/07/3b/96073b55-8e58-ef6e-6e81-2d751ac83ed8/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "why-why-why", title: "Why Why Why", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/78/d2/b278d2a5-ca4d-297e-8947-6f0568b1e58d/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "thats-the-dream", title: "That's the Dream", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/07/3b/96073b55-8e58-ef6e-6e81-2d751ac83ed8/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
@@ -83,11 +83,11 @@ export const TRACKS: Track[] = [
   { id: "in-between", title: "In Between", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/78/d2/b278d2a5-ca4d-297e-8947-6f0568b1e58d/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "the-mountain", title: "The Mountain", album: "Shawn" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/07/3b/96073b55-8e58-ef6e-6e81-2d751ac83ed8/24UMGIM83490.rgb.jpg/300x300bb.jpg" },
   { id: "home", title: "HOME (with Eddie Benjamin)", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/9a/62/049a6204-9cc9-1a34-79dc-3e55016d4686/196872973822.jpg/300x300bb.jpg" },
-  { id: "memories", title: "Memories", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
-  { id: "under-pressure", title: "Under Pressure (with teddy<3)", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/07/26/020726f9-b1e0-4bc9-1d72-0841663abe21/00602577208041.rgb.jpg/300x300bb.jpg" },
+  { id: "memories", title: "Memories", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/300x300bb.jpg" },
+  { id: "under-pressure", title: "Under Pressure (with teddy<3)", album: "" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/07/26/020726f9-b1e0-4bc9-1d72-0841663abe21/00602577208041.rgb.jpg/300x300bb.jpg" },
   { id: "lover-remix", title: "Lover (Remix) [with Taylor Swift]", album: "Featured" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/80/16/6680164a-5dd7-1da5-d1d0-63763fb2e4b2/19UM1IM02940.rgb.jpg/300x300bb.jpg" },
   { id: "in-my-blood-portuguese", title: "In My Blood (Portuguese Version)", album: "Shawn Mendes" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/ec/82/f5ec8243-b243-697e-af65-29e4370afeb1/00602567736905.rgb.jpg/300x300bb.jpg" },
-  { id: "cant-take-my-eyes-off-you-bbc", title: "Can't Take My Eyes Off You (BBC Live Version)", album: "Standalone" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/d0/19/bcd019d3-a4a5-f84d-f4b5-910cc1c0faa1/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
+  { id: "cant-take-my-eyes-off-you-bbc", title: "Can't Take My Eyes Off You", album: "Wonder" , cover: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/d0/19/bcd019d3-a4a5-f84d-f4b5-910cc1c0faa1/20UMGIM83351.rgb.jpg/300x300bb.jpg" },
 ];
 
 // Fill these in with hosted, licensed snippet URLs. Empty = placeholder tone.
